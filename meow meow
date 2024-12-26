@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Greeting</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        .greeting {
+            background-color: #ffef96;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .greeting h1 {
+            color: #ff6347;
+            font-size: 3em;
+        }
+        .greeting p {
+            color: #333;
+            font-size: 1.2em;
+        }
+        .snowman {
+            margin-top: 20px;
+        }
+        .snowman img {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="greeting">
+        <h1>Merry Christmas!</h1>
+        <p>Wishing you a holiday season filled with joy and cheer.</p>
+        <div class="snowman">
+            <img https://commons.m.wikimedia.org/wiki/File:Snowman_in_Indiana_2014.jpg#mw-jump-to-license="https://example.com/snowman.png" alt="Snowman">
+        </div>
+    </div>
+</body>
+</html>
